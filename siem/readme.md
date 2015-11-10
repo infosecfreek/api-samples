@@ -145,6 +145,9 @@ Here we will be showing an example of how to get all offenses associated with
 an IP address. For this scenario to work there must already be offenses on
 the system the sample is being run against.
 
+### 10_GetOffensesForSrcIp.html
+This script provides you detail about the offenses that are associated with source IP address. In this you will get the details (in tabular format) ,only if the source IP address is associated with more that one Offenses. This detail you cannot get from the GUI easily at one place. In this you will get the offenes that got generated in last 24 hours(time you can modify based on your convenience). When any particular offfnse is associated with multiple source IP address that become an event of interest.
+
 The scenario demonstrates the following actions:
  - Using the GET siem/source_addresses and GET
    siem/local_destination_addresses endpoints with a filter parameter to get
